@@ -71,4 +71,4 @@
 - Organização e rastreabilidade do código.  
 - Maior qualidade e consistência nas entregas.  
 - Histórico de commits claro e legível.  
-- Facilidade para novos membros entenderem o fluxo do projeto.  
+- Facilidade para novos membros entenderem o fluxo do projeto.
