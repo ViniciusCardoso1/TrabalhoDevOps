@@ -1,0 +1,5 @@
+# Ignorar arquivos gerados e downloads temporários
+downloads/
+*.log
+*.tmp
+*.DS_Store
