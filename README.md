@@ -1,74 +1,74 @@
-#  Workflow de Desenvolvimento - Guia da Vida Universitária
+# Guia da Vida Universitária
 
-##  Modelo Adotado
-- Uso do **GitHub Flow**, por ser simples e adequado para projetos pequenos.
-- A branch `main` representa sempre o código estável.
-- Novas alterações são feitas em branches específicas.
-- Integração ocorre por meio de Pull Requests (PR), sempre revisados.
+![Banner Guia Universitário](img/lazer/lazer.png)
+
+Projeto web que oferece dicas e informações para estudantes se adaptarem à vida universitária, abordando moradia, transporte, lazer e saúde.
 
 ---
 
-##  Estratégia de Branches
-- `main` → branch estável do projeto (produção).
-- `feature/nome-da-feature` → novas funcionalidades.
-- `fix/nome-do-bug` → correções de erros.
-- `docs/` → alterações de documentação.
+## Estrutura do Projeto
 
-**Convenção de nomes:**  
-`tipo/nome-curto-descritivo` (ex: `feature/menu-responsivo`, `fix/imagem-quebrada`).
-
----
-
-##  Regras de Atualização
-- Sempre atualizar a branch `main` antes de iniciar uma nova tarefa.
-- Branches devem ser pequenas e com commits frequentes.
-- Alterações devem ser integradas apenas via Pull Request.
-- Caso a branch fique desatualizada, deve ser sincronizada com a `main` antes do merge.
-- Não é permitido commit direto na branch `main`.
+| Arquivo/Pasta       | Descrição                                              |
+|--------------------|--------------------------------------------------------|
+| `index.html`       | Página inicial do guia                                 |
+| `moradia.html`     | Informações sobre opções de moradia                   |
+| `transporte.html`  | Dicas de transporte e locomoção                        |
+| `lazer.html`       | Sugestões de lazer e atividades culturais             |
+| `saude.html`       | Informações sobre saúde e bem-estar                    |
+| `style.css`        | Estilos compartilhados entre todas as páginas         |
+| `img/`             | Imagens organizadas por categoria                      |
 
 ---
 
-##  Política de Revisão e Integração
-- Todo Pull Request deve ser revisado por pelo menos **um membro do time**.
-- Revisões devem avaliar:
-  - Clareza e qualidade do código.
-  - Estrutura correta de HTML e CSS.
-  - Consistência nos nomes de arquivos, classes e commits.
-- O merge só é permitido após aprovação.
-- O histórico de commits deve ser limpo e seguir a padronização.
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Git e GitHub para controle de versão
 
 ---
 
-##  Padronização de Commits Semânticos
-**Sintaxe:**
-- `tipo(escopo opcional): descrição breve`
+## Workflow do Projeto
 
-**Exemplos:**
-- `feat(lazer): adicionar seção de eventos culturais`
-- `fix(transporte): corrigir caminho da imagem do ônibus`
-- `docs: atualizar README com instruções de instalação`
+O projeto segue o **[GitHub Flow](workflow.md)**:
 
----
-
-##  Tipos de Commit do Projeto
-**Tipos já conhecidos:**
-- `feat` → nova funcionalidade.  
-- `fix` → correção de bug.  
-- `docs` → documentação.  
-- `style` → ajustes de formatação (espaços, identação, aspas etc.).  
-- `refactor` → refatoração sem alterar funcionalidade.  
-- `test` → criação ou ajuste de testes.  
-- `chore` → tarefas de manutenção (configs, dependências etc.).
-
-**Novos tipos criados para este projeto:**
-- `content` → atualização de textos e imagens do guia.  
-- `layout` → mudanças estruturais de HTML/CSS que afetam a disposição dos elementos.  
-- `accessibility` → melhorias de acessibilidade (alt em imagens, contraste, navegação por teclado).  
+- Branch `main` → código estável
+- Branches de `feature` → novas funcionalidades
+- Branches de `fix` → correção de bugs
+- Branches de `docs` → documentação
+- Commits semânticos e revisões obrigatórias
 
 ---
 
-##  Benefícios do Workflow
-- Organização e rastreabilidade do código.  
-- Maior qualidade e consistência nas entregas.  
-- Histórico de commits claro e legível.  
-- Facilidade para novos membros entenderem o fluxo do projeto.
+## Como Revisar Mudanças
+
+1. Compare sua branch de trabalho com a `main` usando ferramentas gráficas como VS Code ou GitHub Desktop.  
+2. Revise alterações em HTML, CSS e imagens.  
+3. Faça commits adicionais se necessário antes de integrar a branch.  
+4. Abra um Pull Request para integração após revisão.
+
+---
+
+## Seções do Guia
+
+### Moradia
+![Imagem Moradia](img/moradia/casa02.png)  
+Dicas sobre repúblicas, apartamentos compartilhados ou residências estudantis. Avalie localização, segurança e custo-benefício.
+
+### Transporte
+![Imagem Transporte](img/onibus.jpg)  
+Informações sobre linhas de ônibus, metrôs e passes com desconto para estudantes.
+
+### Lazer
+![Imagem Lazer](img/lazer/lazer.png)  
+Sugestões de atividades culturais, esportivas e sociais.
+
+### Saúde
+![Imagem Saúde](img/saude.png)  
+Dicas para manter saúde física e mental, incluindo serviços disponíveis na universidade.
+
+---
+
+## Licença
+
+Todos os direitos reservados © 2025 Guia Universitário.
