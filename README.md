@@ -69,6 +69,13 @@ Dicas para manter saúde física e mental, incluindo serviços disponíveis na u
 
 ---
 
+### Comparação de Alterações
+
+Abaixo está um exemplo do print da comparação de mudanças entre a branch atual e a `main`:
+
+![Print da comparação](img/diff.png)
+
+
 ## Licença
 
 Todos os direitos reservados © 2025 Guia Universitário.
